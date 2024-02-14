@@ -1,4 +1,4 @@
-.card {
+body main .card, .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   height: 497px;
@@ -8,7 +8,7 @@
 img {
   border-radius: 10px;
   height: 288px;
-  margin-top: 16px;
+  margin: 16px;
   width: 288px;
 }
 
@@ -38,6 +38,8 @@ body main .card .text-container {
 body main .card .text-container h1 {
   color: hsl(218, 44%, 22%);
   font: 700 22px "Outfit";
+  margin-top: 8px;
+  margin-bottom: 16px;
   text-align: center;
 }
 body main .card .text-container p {
@@ -48,7 +50,7 @@ body main .card .text-container p {
   text-align: center;
   width: 256px;
 }
-body main .attribution {
+body .attribution {
   bottom: 0;
   font: 15px "Outfit";
   position: absolute;
